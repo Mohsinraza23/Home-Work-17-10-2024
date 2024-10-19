@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div>
       <Header />
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
               className="text-indigo-600 hover:underline transition-colors duration-300"
             >
               {" "}
-              mohsinraza@gmail.com
+              mohsinraza234@gmail.com
             </a>
             .
           </p>
