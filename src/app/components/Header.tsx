@@ -1,45 +1,39 @@
-// components/Header.tsx
+import React from "react";
+
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-5 shadow-lg">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-bold hover:text-yellow-400 transition-colors duration-300">
-          My Next.js Website
-        </h1>
-        <nav className="flex items-center space-x-6">
-          {/* Responsive Menu */}
-          <ul className="hidden md:flex space-x-6">
-            <li>
-              <a href="/" className="hover:text-yellow-400 transition-colors duration-300 ">Home</a>
-            </li>
-            <li>
-              <a href="#about" className="hover:text-yellow-400 transition-colors duration-300">About</a>
-            </li>
-            <li>
-              <a href="#services" className="hover:text-yellow-400 transition-colors duration-300">Services</a>
-            </li>
-            <li>
-              <a href="#portfolio" className="hover:text-yellow-400 transition-colors duration-300">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:text-yellow-400 transition-colors duration-300">Contact</a>
-            </li>
-          </ul>
-          {/* Blog Button on Left Corner */}
-          <div className="ml-auto">
+    <header className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 text-white p-5 shadow-md sticky top-0 z-50">
+      <nav className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-extrabold">Mohsin</h1>
+        <ul className="flex space-x-6">
+          <li>
             <a
-              href="#blog"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 px-4 rounded-full transition-transform transform hover:scale-110 focus:outline-none"
+              href="#about"
+              className="transition-colors hover:text-yellow-300 hover:scale-105 transform duration-300"
             >
-              Blog
+              About Me
             </a>
-          </div>
-        </nav>
-      </div>
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              className="transition-colors hover:text-yellow-300 hover:scale-105 transform duration-300"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="transition-colors hover:text-yellow-300 hover:scale-105 transform duration-300"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
 
-export default Header; 
-  
-  
+export default Header;
