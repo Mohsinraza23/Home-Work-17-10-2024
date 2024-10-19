@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section className="bg-gradient-to-r from-purple-500 to-indigo-600 py-16 flex justify-center items-center">
       <div className="bg-indigo-300 rounded-lg shadow-lg p-8 max-w-2xl text-center transform transition duration-500 hover:scale-105 hover:shadow-2xl">
